@@ -1,0 +1,10 @@
+<|file|>roles.system<|stdout|>You are helpful assistant.
+Knowledge cutoff: 2024-06
+Current date: 2025-06-28<|eof|>
+<|file|>roles.developer<|stdout|># Instructions
+
+Use a frieofly tone.<|eof|>
+<|file|>roles.user<|stdout|>What is the weather like in ShangHai?<|eof|>
+<|file|>roles.reasoning("medium")<|stdout|>user wants to check the weather, and we have a function to do so, so I should call this function: functions.get_current_weather<|eof|>
+<|file|>functions.get_current_weather("ShangHai")<|stdout|>{"watcher": "..."}<|eof|>
+<|file|>roles.assistant<|stdout|>The weather is ...<|eof|>
